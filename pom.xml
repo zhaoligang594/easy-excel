@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>vip.breakpoint</groupId>
     <artifactId>easy-excel</artifactId>
-    <version>0.0.1</version>
+    <version>0.1.0</version>
     <packaging>jar</packaging>
     <name>easy-excel</name>
     <url>https://github.com/zhaoligang594/easy-excel</url>
@@ -14,18 +14,23 @@
         <dependency>
             <groupId>org.apache.poi</groupId>
             <artifactId>poi</artifactId>
-            <version>4.0.1</version>
+            <version>${poi-version}</version>
         </dependency>
         <dependency>
             <groupId>org.apache.poi</groupId>
             <artifactId>poi-ooxml</artifactId>
-            <version>4.0.1</version>
+            <version>${poi-version}</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.apache.poi/poi-scratchpad -->
         <dependency>
             <groupId>org.apache.poi</groupId>
             <artifactId>poi-scratchpad</artifactId>
-            <version>4.0.1</version>
+            <version>${poi-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <version>3.1.0</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
         <dependency>
@@ -47,6 +52,7 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
         <java.version>1.8</java.version>
+        <poi-version>5.2.2</poi-version>
     </properties>
     <description>A Tool for Excel</description>
     <licenses>
@@ -66,6 +72,12 @@
             <name>zhaoligang</name>
             <email>zlgtop@163.com</email>
             <url>https://github.com/zhaoligang594/esay-excel</url>
+            <roles>
+                <role>Software Developer Engineer</role>
+                <role>Java Research Developer Engineer</role>
+            </roles>
+            <organization>Meituan tech company, Beijing, China</organization>
+            <timezone>+8:00</timezone>
         </developer>
     </developers>
     <issueManagement>

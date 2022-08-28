@@ -7,9 +7,7 @@ package vip.breakpoint.utils;
  */
 public class JavaTypeUtils {
 
-    /**
-     * GET VALUE
-     */
+    // GET VALUE
     @SuppressWarnings("unchecked")
     public static <T> T getTargetValue(Object originValue, Class<T> clazz) {
         if (originValue.getClass() == clazz) return (T) originValue;

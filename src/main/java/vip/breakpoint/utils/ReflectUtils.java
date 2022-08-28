@@ -33,13 +33,7 @@ public class ReflectUtils {
         return res;
     }
 
-    /**
-     * get field value from special object
-     *
-     * @param field  field
-     * @param object special object
-     * @return field value
-     */
+    // get field value from special object
     public static Object getFieldValueFromObj(Field field, Object object) throws
             IllegalArgumentException, IllegalAccessException {
         Object res = null;
@@ -53,15 +47,7 @@ public class ReflectUtils {
         return res;
     }
 
-    /**
-     * set field value
-     *
-     * @param field  field
-     * @param object special object
-     * @param value  value
-     * @throws IllegalArgumentException
-     * @throws IllegalAccessException
-     */
+    // set field value
     public static void setFieldValue2Object(Field field, Object object, Object value) throws
             IllegalArgumentException, IllegalAccessException {
         if (value == null) return;

@@ -11,9 +11,9 @@ put this code block to your pom.xml in your project.
 
 ```xml
     <dependency>
-      <groupId>vip.breakpoint</groupId>
-      <artifactId>easy-excel</artifactId>
-      <version>0.0.1</version>
+        <groupId>vip.breakpoint</groupId>
+        <artifactId>easy-excel</artifactId>
+        <version>0.1.0</version>
     </dependency>
 ```
 
@@ -52,6 +52,33 @@ This is a demo to use this tool to explore a excel!
 ```
 
 This is a demo to parse the excel and new a java object.
+
+### Download an excl file
+
+####  STEP 1
+put this map to your project
+```xml
+    <dependency>
+        <groupId>vip.breakpoint</groupId>
+        <artifactId>easy-excel</artifactId>
+        <version>0.1.0</version>
+    </dependency>
+```
+####  STEP 1
+demo code
+
+```java
+    @GetMapping("testDownload")
+    public void downExcel(HttpServletResponse response) throws Exception {
+        List<Data> list = new ArrayList<>();
+        list.add(new Data("lisi", 30));
+        list.add(new Data("wangwu", 26));
+        ExcelDownloadUtils.downLoadExcelByCurrentData(response, list, "测试", "sheet1");
+        System.out.println("==okk==");
+    }
+```
+
+The end !
 
 ### Related links:
 None
