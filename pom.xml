@@ -63,9 +63,9 @@
         </license>
     </licenses>
     <scm>
-        <url>git@github.com:zhaoligang594/esay-excel.git</url>
-        <connection>scm:git@github.com:zhaoligang594/esay-excel.git</connection>
-        <developerConnection>scm:git@github.com:zhaoligang594/esay-excel.git</developerConnection>
+        <url>git@github.com:zhaoligang594/easy-excel.git</url>
+        <connection>scm:git@github.com:zhaoligang594/easy-excel.git</connection>
+        <developerConnection>scm:git@github.com:zhaoligang594/easy-excel.git</developerConnection>
     </scm>
     <developers>
         <developer>

@@ -64,7 +64,7 @@ put this map to your project
         <version>0.1.0</version>
     </dependency>
 ```
-####  STEP 1
+####  STEP 2
 demo code
 
 ```java
