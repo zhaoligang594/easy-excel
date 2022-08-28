@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>vip.breakpoint</groupId>
     <artifactId>easy-excel</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>0.0.1</version>
     <packaging>jar</packaging>
     <name>easy-excel</name>
     <url>https://github.com/zhaoligang594/easy-excel</url>
